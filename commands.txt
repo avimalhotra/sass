@@ -1,0 +1,32 @@
+# open terminal in VS Code
+# choose cmd or terminal, not Powershell
+# to check directory, cmd in  windows ( dir ), mac/linux/powershell ( ls )
+# change directory using cd foldername command in Cmd
+# confirm directory using ls in mac/linux, dir in window
+
+# compile : sass style.scss style.css
+# watch & compile : sass --watch style.scss style.css
+# exit: ctrl + c
+
+
+5k lines (unused css)
+
+reset.scss
+grids.scss
+header.scss
+nav.scss
+main.scss
+footer.scss
+product.scss
+product-sm.scss
+login.scss
+search.scss
+contact.scss
+
+
+index.scss  -> reset, grids, header, nav, main, footer, product-sm   (3k)
+product.scss  -> reset, grids, header, nav, main, footer, product  (2.5k) 
+product-sm.scss --> reset, grids, header, nav, main, footer, product-sm
+login.scss  -> reset, grids, header, nav, main, footer, login
+search.scss  -> reset, grids, header, nav, main, footer, search, ,product-sm 
+contact.scss  -> reset, grids, header, nav, main, footer, contact
